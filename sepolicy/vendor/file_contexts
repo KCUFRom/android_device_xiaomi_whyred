@@ -1,0 +1,37 @@
+# Alarm
+/persist/alarm(/.*)?							u:object_r:persist_alarm_file:s0
+
+# Block devices
+/dev/block/bootdevice/by-name/persist					u:object_r:persist_block_device:s0
+
+# Fingerprint
+/dev/goodix_fp								u:object_r:fingerprintd_device:s0
+
+/dev/socket/fpce							u:object_r:fpce_socket:s0
+/sys/devices/soc/soc:fpc1020.*/hw_reset					u:object_r:sysfs_fpc_dev:s0
+/sys/devices/soc/soc:fpc1020.*/irq					u:object_r:sysfs_fpc_dev:s0
+/sys/devices/soc/soc:fpc1020.*/wakeup_enable				u:object_r:sysfs_fpc_dev:s0
+/sys/devices/soc/soc:fpc1020.*/fingerdown_wait				u:object_r:sysfs_fpc_dev:s0
+
+# HVDCP
+
+# IR
+/dev/spidev7.1								u:object_r:lirc_device:s0
+
+# Light HAL
+
+# Power HAL
+
+# Readmac
+
+# Remote storage
+
+# Ril
+/(vendor|system/vendor)/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
+
+# Sensors
+/persist/PRSensorData\.txt						u:object_r:sensors_persist_file:s0
+
+# Thermal engine
+/data/decrypt\.txt							u:object_r:thermal_decrypt_file:s0
+/data/thermal(/.*)?							u:object_r:thermal_data_file:s0
