@@ -1468,6 +1468,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 -app/QtiTelephonyService/QtiTelephonyService.apk
 -framework/embmslibrary.jar
 -framework/qcrilhook.jar
+framework/qti-telephony-common.jar|2eba987ae297a892e895ec1e9a302b41dbe0232e
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 etc/permissions/embms.xml
 etc/permissions/qcrilhook.xml
