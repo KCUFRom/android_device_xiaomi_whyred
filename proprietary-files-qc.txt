@@ -1616,7 +1616,6 @@ vendor/lib/sensors.ssc.so
 vendor/lib/hw/thermal.sdm660.so
 vendor/lib64/hw/thermal.sdm660.so
 vendor/bin/thermal-engine
-vendor/etc/thermal-engine.conf
 lib64/libthermalcallback.so
 lib64/libthermalservice.so
 -vendor/lib64/libthermalclient.so
