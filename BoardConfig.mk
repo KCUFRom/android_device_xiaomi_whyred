@@ -246,6 +246,9 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RIL_VARIANT := caf
 PROTOBUF_SUPPORTED := true
 
+# Root folders
+BOARD_ROOT_EXTRA_FOLDERS := firmware bt_firmware
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 #include device/qcom/sepolicy/legacy-sepolicy.mk
