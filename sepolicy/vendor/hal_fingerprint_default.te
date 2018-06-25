@@ -22,7 +22,10 @@ allow hal_fingerprint_default sdcardfs:file { getattr append open };
 allow hal_fingerprint_default media_rw_data_file:file { getattr append open };
 allow hal_fingerprint_default mnt_user_file:dir search;
 allow hal_fingerprint_default mnt_user_file:lnk_file read;
+allow hal_fingerprint_default sysfs_graphics:dir search;
+allow hal_fingerprint_default sysfs_graphics:file { read open };
 
 r_dir_file(hal_fingerprint_default, firmware_file);
 
 set_prop(hal_fingerprint_default, fingerprint_prop);
+set_prop(hal_fingerprint_default, system_prop);
