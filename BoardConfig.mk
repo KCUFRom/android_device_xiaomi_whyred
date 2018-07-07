@@ -250,9 +250,9 @@ PROTOBUF_SUPPORTED := true
 BOARD_ROOT_EXTRA_FOLDERS := firmware bt_firmware
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 #include device/qcom/sepolicy/legacy-sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
