@@ -1,2 +1,2 @@
-add_lunch_combo lineage_whyred-userdebug
-add_lunch_combo lineage_whyred-eng
+add_lunch_combo aosp_whyred-userdebug
+add_lunch_combo aosp_whyred-eng
