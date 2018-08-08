@@ -543,7 +543,6 @@ lib64/libfdpp.so
 lib64/libfdpp_jni.so
 
 lib64/libfm-hci.so
-lib64/libfmp_snpe_cv.so
 lib64/libgnustl_shared.so
 lib64/libhazebuster.so
 lib64/libhttpserver.so
@@ -571,7 +570,6 @@ lib64/liblistenjni.so
 lib64/liblistensoundmodel2.so
 lib64/libmdsprpc.so
 lib64/libmediaplayerservice.so
-lib64/libmegbucket.so
 
 lib64/libmp3lame.so
 lib64/libmtk_serialnum.so
@@ -620,8 +618,6 @@ lib64/libshell_jni.so
 lib64/libshellservice.so
 lib64/libsim-activate-root-checker.so
 lib64/libskbcli.so
-lib64/libsnpe_loader.so
-lib64/libSNPE.so
 lib64/libtcp.so
 
 lib64/libtrueportrait.so
@@ -630,7 +626,6 @@ lib64/libts_detected_face_jni.so
 lib64/libts_face_beautify_hal.so
 lib64/libts_face_beautify_jni.so
 lib64/libubifocus.so
-lib64/libunlockmegcv.so
 lib64/liburldetectorsys.so
 lib64/libvis.so
 lib64/libvr_amb_engine.so
