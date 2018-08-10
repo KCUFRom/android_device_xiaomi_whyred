@@ -222,6 +222,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Use mke2fs to create ext4 images
+TARGET_USES_MKE2FS := true
+
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
