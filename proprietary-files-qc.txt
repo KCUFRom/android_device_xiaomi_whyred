@@ -957,14 +957,6 @@ vendor/lib64/hw/gatekeeper.sdm660.so
 vendor/lib/hw/gatekeeper.sdm660.so
 
 # GPS
-lib/vendor.qti.gnss@1.0.so
-lib64/vendor.qti.gnss@1.0.so
-vendor/bin/hw/vendor.qti.gnss@1.0-service
-vendor/etc/init/vendor.qti.gnss@1.0-service.rc
-vendor/lib/hw/vendor.qti.gnss@1.0-impl.so
-vendor/lib/vendor.qti.gnss@1.0_vendor.so
-vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so
-vendor/lib64/vendor.qti.gnss@1.0_vendor.so
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk
 -vendor/lib/libloc_api_v02.so
 -vendor/lib64/libloc_api_v02.so
