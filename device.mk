@@ -363,6 +363,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK-SP:
 PRODUCT_PACKAGES += \
+    libcamshim.vendor \
     libstdc++.vendor \
     vndk-sp
 
