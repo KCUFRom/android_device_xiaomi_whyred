@@ -1072,6 +1072,8 @@ vendor/firmware/fpctzappfingerprint.mdt
 vendor/bin/qfp-daemon
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
+lib/libsoftkeymaster.so:vendor/lib/libsoftkeymaster.so
+lib64/libsoftkeymaster.so:vendor/lib64/libsoftkeymaster.so
 vendor/lib/hw/fingerprint.goodix.default.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/fingerprint.default.so
