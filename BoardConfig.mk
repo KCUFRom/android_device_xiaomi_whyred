@@ -228,6 +228,9 @@ BOARD_USES_QCNE := true
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-05-01
+
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)

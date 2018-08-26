@@ -235,10 +235,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.hw_mbn_update=0
     persist.radio.trigger.silence=true
 
-# Security Patch Level
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2018-05-01
-
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.facing=false \
