@@ -436,8 +436,8 @@ PRODUCT_COPY_FILES += \
 #    XiaomiDoze
 
 # XiaomiParts
-#PRODUCT_PACKAGES += \
-#    XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
