@@ -86,7 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.cne.feature=1
+    persist.vendor.cne.feature=1
 
 # Device Specific
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -117,7 +117,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.dpm.feature=1 \
+    persist.vendor.dpm.feature=1 \
     persist.vendor.dpm.nsrm.bkg.evt=3955
 
 # DRM
