@@ -48,9 +48,9 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # ANT+
-lib/com.qualcomm.qti.ant@1.0.so
+-lib/com.qualcomm.qti.ant@1.0.so
 -lib/libantradio.so
-lib64/com.qualcomm.qti.ant@1.0.so
+-lib64/com.qualcomm.qti.ant@1.0.so
 -lib64/libantradio.so
 vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
@@ -121,10 +121,10 @@ vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/libbt-hidlclient.so
-vendor/lib/libbtnv.so
+-vendor/lib/libbtnv.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbt-hidlclient.so
-vendor/lib64/libbtnv.so
+-vendor/lib64/libbtnv.so
 
 # Camera
 lib/libskia.so:vendor/lib/libskia.so
@@ -1604,8 +1604,6 @@ vendor/firmware/a530_pm4.fw
 
 # Thermal
 vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-china.conf
-vendor/etc/thermal-engine-india.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-sgame.conf
 vendor/bin/thermal-engine
