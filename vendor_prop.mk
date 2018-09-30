@@ -35,6 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.safx.pbe.enabled=true \
     vendor.audio.parser.ip.buffer.size=262144 \
     vendor.audio.flac.sw.decoder.24bit=true \
+    persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.audio.hw.aac.encoder=true \
@@ -216,6 +217,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.VT_CAM_INTERFACE=2 \
     persist.rmnet.data.enable=true \
     persist.data.netmgrd.qos.enable=true \
+    persist.radio.data_con_rprt=1 \
     persist.radio.multisim.config=dsds \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.sib16_support=1 \
@@ -231,8 +233,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     DEVICE_PROVISIONED=1 \
     persist.vendor.radio.snapshot_enabled=1 \
     persist.vendor.radio.snapshot_timer=5 \
-    persist.radio.sw_mbn_update=0
-    persist.radio.hw_mbn_update=0
+    persist.radio.sw_mbn_update=0 \
+    persist.radio.hw_mbn_update=0 \
     persist.radio.trigger.silence=true
 
 # Sensors
@@ -256,7 +258,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # WFD
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.wfd.virtual=0
+    persist.sys.wfd.virtual=0 \
     persist.debug.wfd.enable=1
 
 # Wifi
