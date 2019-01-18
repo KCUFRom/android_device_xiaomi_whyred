@@ -1,4 +1,4 @@
-# 
+#
 # Copyright (C) 2018 The Mokee Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,10 +23,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/whyred.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+# Inherit some common KCUF stuff.
+$(call inherit-product, vendor/kcuf/config/common.mk)
 
-PRODUCT_NAME := mk_whyred
+PRODUCT_NAME := kcuf_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
